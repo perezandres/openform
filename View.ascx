@@ -3,10 +3,11 @@
 <%@ Register TagPrefix="dnncl" Namespace="DotNetNuke.Web.Client.ClientResourceManagement" Assembly="DotNetNuke.Web.Client" %>
 <dnncl:DnnJsInclude ID="DnnJsInclude1" runat="server" FilePath="~/DesktopModules/OpenContent/js/alpaca-1.5.8/lib/handlebars/handlebars.js" Priority="106" ForceProvider="DnnPageHeaderProvider" />
 <dnncl:DnnJsInclude ID="DnnJsInclude2" runat="server" FilePath="~/DesktopModules/OpenContent/js/alpaca-1.5.8/alpaca/bootstrap/alpaca.js" Priority="107" ForceProvider="DnnPageHeaderProvider" />
-<script src="/DesktopModules/OpenContent/js/wysihtml/wysihtml-toolbar.js"></script>
-<script src="/DesktopModules/OpenContent/js/wysihtml/parser_rules/advanced.js"></script>
-<script type="text/javascript" src="/DesktopModules/OpenContent/alpaca/js/fields/dnn/ImageField.js"></script>
-<script type="text/javascript" src="/DesktopModules/OpenContent/alpaca/js/fields/dnn/wysihtmlField.js"></script>
+
+<dnncl:DnnJsInclude ID="DnnJsInclude5" runat="server" FilePath="~/DesktopModules/OpenContent/alpaca/js/fields/dnn/ImageField.js" Priority="120" ForceProvider="DnnFormBottomProvider" />
+<dnncl:DnnJsInclude ID="DnnJsInclude11" runat="server" FilePath="~/DesktopModules/OpenContent/js/wysihtml/wysihtml-toolbar.js" Priority="110" ForceProvider="DnnFormBottomProvider" />
+<dnncl:DnnJsInclude ID="DnnJsInclude7" runat="server" FilePath="~/DesktopModules/OpenContent/alpaca/js/fields/dnn/wysihtmlField.js" Priority="110" ForceProvider="DnnFormBottomProvider" />
+<dnncl:DnnJsInclude ID="DnnJsInclude12" runat="server" FilePath="~/DesktopModules/OpenContent/js/wysihtml/parser_rules/advanced_and_extended.js" Priority="111" ForceProvider="DnnFormBottomProvider" />
 
 <asp:Panel ID="pHelp" runat="server" Visible="false">
     <h3>Get started</h3>

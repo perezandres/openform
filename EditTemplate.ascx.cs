@@ -81,7 +81,6 @@ namespace Satrabel.OpenForm
         {
             LoadFiles(Template);
             DisplayFile(Template);
-            
             if (Template.StartsWith(ModuleTemplateDirectory))
             {
                 cmdCustom.Visible = false;
